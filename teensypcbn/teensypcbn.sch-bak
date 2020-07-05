@@ -551,12 +551,12 @@ Wire Wire Line
 Wire Wire Line
 	3775 4320 4770 4320
 $Comp
-L SamacSys_Parts:629104190121 J?
+L SamacSys_Parts:629104190121 J3
 U 1 1 5F115703
 P 3275 4570
-F 0 "J?" H 4133 5035 50  0000 C CNN
+F 0 "J3" H 4133 5035 50  0000 C CNN
 F 1 "629104190121" H 4133 4944 50  0000 C CNN
-F 2 "629104190121" H 4225 4670 50  0001 L CNN
+F 2 "SamacSys_Parts:629104190121" H 4225 4670 50  0001 L CNN
 F 3 "http://katalog.we-online.de/em/datasheet/629104190121.pdf" H 4225 4570 50  0001 L CNN
 F 4 "WURTH ELEKTRONIK - 629104190121 - CONN, USB 2 TYPE A, RCPT, 4POS, SMT" H 4225 4470 50  0001 L CNN "Description"
 F 5 "710-629104190121" H 4225 4270 50  0001 L CNN "Mouser Part Number"
@@ -567,10 +567,10 @@ F 8 "629104190121" H 4225 3970 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5F12B9AB
 P 7235 4820
-F 0 "#PWR?" H 7235 4570 50  0001 C CNN
+F 0 "#PWR0102" H 7235 4570 50  0001 C CNN
 F 1 "GND" H 7240 4647 50  0000 C CNN
 F 2 "" H 7235 4820 50  0001 C CNN
 F 3 "" H 7235 4820 50  0001 C CNN
@@ -581,25 +581,6 @@ Wire Wire Line
 	7235 4820 7235 4570
 Wire Wire Line
 	7235 4570 6970 4570
-$Comp
-L SamacSys_Parts:HX1198FNLT T?
-U 1 1 5F151EA4
-P 7970 4070
-F 0 "T?" V 8415 3945 50  0000 C CNN
-F 1 "HX1198FNLT" V 8415 3545 50  0000 C CNN
-F 2 "HX1198FNLT" H 8720 4170 50  0001 L CNN
-F 3 "http://productfinder.pulseeng.com/products/datasheets/HX1198FNL.pdf" H 8720 4070 50  0001 L CNN
-F 4 "Transformers Audio & Signal 100BaseTX SMD NonPoE 350uH 1-Port" H 8720 3970 50  0001 L CNN "Description"
-F 5 "" H 8720 3870 50  0001 L CNN "Height"
-F 6 "Pulse" H 8720 3770 50  0001 L CNN "Manufacturer_Name"
-F 7 "HX1198FNLT" H 8720 3670 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "HX1198FNLT" H 8720 3570 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/hx1198fnlt/pulse-electronics-corporation" H 8720 3470 50  0001 L CNN "Arrow Price/Stock"
-F 10 "673-HX1198FNLT" H 8720 3370 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HX1198FNLT?qs=tJ9riMc3cOdxYfOUFXg7qA%3D%3D" H 8720 3270 50  0001 L CNN "Mouser Price/Stock"
-	1    7970 4070
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6970 4170 7365 4170
 Wire Wire Line
@@ -619,23 +600,23 @@ Wire Wire Line
 Wire Wire Line
 	6970 4470 7210 4470
 $Comp
-L ESP32-PoE-ISO_Rev_C:Cap_Small C?
+L ESP32-PoE-ISO_Rev_C:Cap_Small C1
 U 1 1 5F1959ED
 P 7795 4120
-F 0 "C?" V 7760 4065 39  0000 C CNN
+F 0 "C1" V 7760 4065 39  0000 C CNN
 F 1 "0.1" V 7775 4175 24  0000 C CNN
-F 2 "" H 7795 4120 60  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 7795 4120 60  0001 C CNN
 F 3 "" H 7795 4120 60  0000 C CNN
 	1    7795 4120
 	0    1    1    0   
 $EndComp
 $Comp
-L ESP32-PoE-ISO_Rev_C:Cap_Small C?
+L ESP32-PoE-ISO_Rev_C:Cap_Small C2
 U 1 1 5F196271
 P 7795 4200
-F 0 "C?" V 7820 4145 39  0000 C CNN
+F 0 "C2" V 7820 4145 39  0000 C CNN
 F 1 "0.1" V 7770 4145 24  0000 C CNN
-F 2 "" H 7795 4200 60  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 7795 4200 60  0001 C CNN
 F 3 "" H 7795 4200 60  0000 C CNN
 	1    7795 4200
 	0    -1   -1   0   
@@ -643,12 +624,7 @@ $EndComp
 Wire Wire Line
 	7845 4200 7970 4200
 Wire Wire Line
-	7970 4200 7970 4170
-Wire Wire Line
-	7970 4170 7970 4120
-Wire Wire Line
 	7970 4120 7845 4120
-Connection ~ 7970 4170
 Wire Wire Line
 	7745 4120 7620 4120
 Wire Wire Line
@@ -656,10 +632,10 @@ Wire Wire Line
 Wire Wire Line
 	7620 4200 7745 4200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5F1C27B5
 P 7620 4160
-F 0 "#PWR?" H 7620 3910 50  0001 C CNN
+F 0 "#PWR0103" H 7620 3910 50  0001 C CNN
 F 1 "GND" H 7625 3987 50  0000 C CNN
 F 2 "" H 7620 4160 50  0001 C CNN
 F 3 "" H 7620 4160 50  0001 C CNN
@@ -680,23 +656,23 @@ Wire Wire Line
 Wire Wire Line
 	7240 4070 6970 4070
 $Comp
-L ESP32-PoE-ISO_Rev_C:Cap_Small C?
+L ESP32-PoE-ISO_Rev_C:Cap_Small C3
 U 1 1 5F212E0D
 P 7835 4630
-F 0 "C?" V 7800 4575 39  0000 C CNN
+F 0 "C3" V 7800 4575 39  0000 C CNN
 F 1 "0.1" V 7815 4685 24  0000 C CNN
-F 2 "" H 7835 4630 60  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 7835 4630 60  0001 C CNN
 F 3 "" H 7835 4630 60  0000 C CNN
 	1    7835 4630
 	0    1    1    0   
 $EndComp
 $Comp
-L ESP32-PoE-ISO_Rev_C:Cap_Small C?
+L ESP32-PoE-ISO_Rev_C:Cap_Small C4
 U 1 1 5F212E13
 P 7835 4710
-F 0 "C?" V 7860 4655 39  0000 C CNN
+F 0 "C4" V 7860 4655 39  0000 C CNN
 F 1 "0.1" V 7810 4655 24  0000 C CNN
-F 2 "" H 7835 4710 60  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 7835 4710 60  0001 C CNN
 F 3 "" H 7835 4710 60  0000 C CNN
 	1    7835 4710
 	0    -1   -1   0   
@@ -708,10 +684,10 @@ Wire Wire Line
 Wire Wire Line
 	7660 4710 7785 4710
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 5F212E1E
 P 7660 4670
-F 0 "#PWR?" H 7660 4420 50  0001 C CNN
+F 0 "#PWR0104" H 7660 4420 50  0001 C CNN
 F 1 "GND" H 7555 4575 50  0000 C CNN
 F 2 "" H 7660 4670 50  0001 C CNN
 F 3 "" H 7660 4670 50  0001 C CNN
@@ -730,10 +706,232 @@ Wire Wire Line
 Wire Wire Line
 	7885 4630 7970 4630
 Wire Wire Line
+	7970 4710 7885 4710
+NoConn ~ 7970 4470
+NoConn ~ 7970 4370
+Text Label 7210 4470 2    50   ~ 0
+LED0
+Text Label 7085 4070 0    50   ~ 0
+TP
+Text Label 7095 4170 0    50   ~ 0
+TN
+Text Label 7085 4270 0    50   ~ 0
+RP
+Text Label 7085 4370 0    50   ~ 0
+RN
+Wire Wire Line
+	7970 4120 7970 4170
+Wire Wire Line
 	7970 4630 7970 4670
+$Comp
+L SamacSys_Parts:HX1198FNLT T?
+U 1 1 5F03A440
+P 7970 4070
+F 0 "T?" H 8420 4335 50  0000 C CNN
+F 1 "HX1198FNLT" H 8420 4244 50  0000 C CNN
+F 2 "HX1198FNLT" H 8720 4170 50  0001 L CNN
+F 3 "http://productfinder.pulseeng.com/products/datasheets/HX1198FNL.pdf" H 8720 4070 50  0001 L CNN
+F 4 "Transformers Audio & Signal 100BaseTX SMD NonPoE 350uH 1-Port" H 8720 3970 50  0001 L CNN "Description"
+F 5 "Pulse" H 8720 3770 50  0001 L CNN "Manufacturer_Name"
+F 6 "HX1198FNLT" H 8720 3670 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "HX1198FNLT" H 8720 3570 50  0001 L CNN "Arrow Part Number"
+F 8 "https://www.arrow.com/en/products/hx1198fnlt/pulse-electronics-corporation" H 8720 3470 50  0001 L CNN "Arrow Price/Stock"
+F 9 "673-HX1198FNLT" H 8720 3370 50  0001 L CNN "Mouser Part Number"
+F 10 "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HX1198FNLT?qs=tJ9riMc3cOdxYfOUFXg7qA%3D%3D" H 8720 3270 50  0001 L CNN "Mouser Price/Stock"
+	1    7970 4070
+	1    0    0    -1  
+$EndComp
+Connection ~ 7970 4170
+Wire Wire Line
+	7970 4170 7970 4200
+Connection ~ 7970 4670
 Wire Wire Line
 	7970 4670 7970 4710
+$Comp
+L SamacSys_Parts:SS-7188S-A-NF J?
+U 1 1 5F04A257
+P 10240 4370
+F 0 "J?" H 10468 4371 50  0000 L CNN
+F 1 "SS-7188S-A-NF" H 10468 4280 50  0000 L CNN
+F 2 "SS-7188S-A-NF" H 10490 4620 50  0001 L CNN
+F 3 "" H 10490 4520 50  0001 L CNN
+F 4 "Bel-Stewart Cat5e RJ45 Connector Socket, Shielded, Right Angle, Through Hole" H 10490 4420 50  0001 L CNN "Description"
+F 5 "530-SS-7188S-A-NF" H 10490 4220 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Stewart-Connector-Bel/SS-7188S-A-NF?qs=FESYatJ8odJ%252BI%2FN%2FnbWjsA%3D%3D" H 10490 4120 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Bel-Stewart" H 10490 4020 50  0001 L CNN "Manufacturer_Name"
+F 8 "SS-7188S-A-NF" H 10490 3920 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10240 4370
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7970 4710 7885 4710
-Connection ~ 7970 4670
+	8870 4070 10040 4070
+Wire Wire Line
+	8870 4270 9460 4270
+Wire Wire Line
+	9460 4270 9460 4170
+Wire Wire Line
+	9460 4170 10040 4170
+NoConn ~ 8870 4370
+NoConn ~ 8870 4470
+Wire Wire Line
+	8870 4570 9635 4570
+Wire Wire Line
+	9635 4570 9635 4270
+Wire Wire Line
+	9635 4270 10040 4270
+Wire Wire Line
+	8870 4770 9840 4770
+Wire Wire Line
+	9840 4770 9840 4570
+Wire Wire Line
+	9840 4570 10040 4570
+$Comp
+L Device:R_US R?
+U 1 1 5F0E3549
+P 9650 5140
+F 0 "R?" H 9718 5186 50  0000 L CNN
+F 1 "R_US" H 9718 5095 50  0000 L CNN
+F 2 "" V 9690 5130 50  0001 C CNN
+F 3 "~" H 9650 5140 50  0001 C CNN
+	1    9650 5140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10040 4670 9935 4670
+Wire Wire Line
+	9935 4670 9935 4775
+Wire Wire Line
+	10040 4770 9940 4770
+Wire Wire Line
+	9940 4770 9940 4775
+Wire Wire Line
+	9940 4775 9935 4775
+Connection ~ 9935 4775
+Wire Wire Line
+	9935 4775 9935 5275
+$Comp
+L Device:R_US R?
+U 1 1 5F0FEAAA
+P 9935 5425
+F 0 "R?" H 10003 5471 50  0000 L CNN
+F 1 "R_US" H 10003 5380 50  0000 L CNN
+F 2 "" V 9975 5415 50  0001 C CNN
+F 3 "~" H 9935 5425 50  0001 C CNN
+	1    9935 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-PoE-ISO_Rev_C:Cap_Small C?
+U 1 1 5F100571
+P 9775 5670
+F 0 "C?" V 9855 5670 39  0000 C CNN
+F 1 "1000pF" H 9670 5675 24  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 9775 5670 60  0001 C CNN
+F 3 "" H 9775 5670 60  0000 C CNN
+	1    9775 5670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9775 5620 9935 5620
+Wire Wire Line
+	9935 5620 9935 5575
+Wire Wire Line
+	9775 5620 9650 5620
+Wire Wire Line
+	9650 5620 9650 5290
+Connection ~ 9775 5620
+$Comp
+L power:Earth #PWR?
+U 1 1 5F11E832
+P 9775 5810
+F 0 "#PWR?" H 9775 5560 50  0001 C CNN
+F 1 "Earth" H 9775 5660 50  0001 C CNN
+F 2 "" H 9775 5810 50  0001 C CNN
+F 3 "~" H 9775 5810 50  0001 C CNN
+	1    9775 5810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9775 5810 9775 5720
+$Comp
+L Device:R_US R?
+U 1 1 5F1344E5
+P 8990 5245
+F 0 "R?" H 9058 5291 50  0000 L CNN
+F 1 "R_US" H 9058 5200 50  0000 L CNN
+F 2 "" V 9030 5235 50  0001 C CNN
+F 3 "~" H 8990 5245 50  0001 C CNN
+	1    8990 5245
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F1344EC
+P 9275 5530
+F 0 "R?" H 9343 5576 50  0000 L CNN
+F 1 "R_US" H 9343 5485 50  0000 L CNN
+F 2 "" V 9315 5520 50  0001 C CNN
+F 3 "~" H 9275 5530 50  0001 C CNN
+	1    9275 5530
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-PoE-ISO_Rev_C:Cap_Small C?
+U 1 1 5F1344F2
+P 9115 5775
+F 0 "C?" V 9195 5775 39  0000 C CNN
+F 1 "1000pF" H 9010 5780 24  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 9115 5775 60  0001 C CNN
+F 3 "" H 9115 5775 60  0000 C CNN
+	1    9115 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9115 5725 9275 5725
+Wire Wire Line
+	9275 5725 9275 5680
+Wire Wire Line
+	9115 5725 8990 5725
+Wire Wire Line
+	8990 5725 8990 5395
+Connection ~ 9115 5725
+$Comp
+L power:Earth #PWR?
+U 1 1 5F1344FD
+P 9115 5915
+F 0 "#PWR?" H 9115 5665 50  0001 C CNN
+F 1 "Earth" H 9115 5765 50  0001 C CNN
+F 2 "" H 9115 5915 50  0001 C CNN
+F 3 "~" H 9115 5915 50  0001 C CNN
+	1    9115 5915
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9115 5915 9115 5825
+Wire Wire Line
+	8990 5095 8990 4670
+Wire Wire Line
+	8990 4670 8870 4670
+Wire Wire Line
+	9275 4170 8870 4170
+Wire Wire Line
+	9275 4170 9275 5380
+Wire Wire Line
+	10040 4370 9915 4370
+Wire Wire Line
+	9665 4370 9665 4930
+Wire Wire Line
+	9665 4930 9650 4930
+Wire Wire Line
+	9650 4930 9650 4990
+Wire Wire Line
+	10045 4470 10040 4470
+Wire Wire Line
+	9915 4470 9915 4370
+Connection ~ 10040 4470
+Wire Wire Line
+	10040 4470 9915 4470
+Connection ~ 9915 4370
+Wire Wire Line
+	9915 4370 9665 4370
 $EndSCHEMATC

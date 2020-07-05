@@ -24,6 +24,27 @@ X - 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_R_US
+#
+DEF Device_R_US R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Device_R_US" -100 0 50 V V C CNN
+F2 "" 40 -10 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *:R_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # ESP32-PoE-ISO_Rev_C_Cap_Small
 #
 DEF ESP32-PoE-ISO_Rev_C_Cap_Small C 0 10 N N 1 F N
@@ -99,6 +120,31 @@ X 6 6 0 -500 200 R 50 50 0 0 P
 X 7 7 0 -600 200 R 50 50 0 0 P
 X 8 8 0 -700 200 R 50 50 0 0 P
 X 9 9 900 -700 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_SS-7188S-A-NF
+#
+DEF SamacSys_Parts_SS-7188S-A-NF J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_SS-7188S-A-NF" 250 350 50 H V L CNN
+F2 "SS-7188S-A-NF" 250 250 50 H I L CNN
+F3 "" 250 150 50 H I L CNN
+F4 "Bel-Stewart Cat5e RJ45 Connector Socket, Shielded, Right Angle, Through Hole" 250 50 50 H I L CNN "Description"
+F5 "530-SS-7188S-A-NF" 250 -150 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Stewart-Connector-Bel/SS-7188S-A-NF?qs=FESYatJ8odJ%252BI%2FN%2FnbWjsA%3D%3D" 250 -250 50 H I L CNN "Mouser Price/Stock"
+F7 "Bel-Stewart" 250 -350 50 H I L CNN "Manufacturer_Name"
+F8 "SS-7188S-A-NF" 250 -450 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S 0 350 200 -450 0 1 0 f
+X 1 1 -200 300 200 R 50 50 0 0 P
+X 2 2 -200 200 200 R 50 50 0 0 P
+X 3 3 -200 100 200 R 50 50 0 0 P
+X 4 4 -200 0 200 R 50 50 0 0 P
+X 5 5 -200 -100 200 R 50 50 0 0 P
+X 6 6 -200 -200 200 R 50 50 0 0 P
+X 7 7 -200 -300 200 R 50 50 0 0 P
+X 8 8 -200 -400 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -221,6 +267,22 @@ X 6 6 300 1000 200 L 40 40 1 1 P
 X 7 7 -300 900 200 R 40 40 1 1 P
 X 8 8 300 900 200 L 40 40 1 1 P
 X 9 9 -300 800 200 R 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_Earth
+#
+DEF power_Earth #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_Earth" 0 -150 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X Earth 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
