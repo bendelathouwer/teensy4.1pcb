@@ -1,0 +1,751 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L teensy:Teensy4.1 U1
+U 1 1 5F006F71
+P 5870 3620
+F 0 "U1" H 5870 6185 50  0000 C CNN
+F 1 "Teensy4.1" H 5870 6094 50  0000 C CNN
+F 2 "teensy:Teensy41" H 5470 4020 50  0001 C CNN
+F 3 "" H 5470 4020 50  0001 C CNN
+	1    5870 3620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4770 1470 4040 1470
+Wire Wire Line
+	4040 1570 4770 1570
+Wire Wire Line
+	4770 1670 4040 1670
+Wire Wire Line
+	4770 3770 4040 3770
+Wire Wire Line
+	4040 3670 4770 3670
+Wire Wire Line
+	4770 3570 4040 3570
+Wire Wire Line
+	4040 3470 4770 3470
+Wire Wire Line
+	4770 3370 4040 3370
+Wire Wire Line
+	4040 3270 4770 3270
+Wire Wire Line
+	4770 3170 4040 3170
+Wire Wire Line
+	4040 3070 4770 3070
+Wire Wire Line
+	4770 2970 4040 2970
+Wire Wire Line
+	4040 2870 4770 2870
+Wire Wire Line
+	4770 2770 4040 2770
+Wire Wire Line
+	4040 2670 4770 2670
+Wire Wire Line
+	4040 2570 4770 2570
+Wire Wire Line
+	4770 2470 4040 2470
+Wire Wire Line
+	4770 2370 4040 2370
+Wire Wire Line
+	4770 2270 4040 2270
+Wire Wire Line
+	4040 2170 4770 2170
+Wire Wire Line
+	4770 2070 4040 2070
+Wire Wire Line
+	4040 1970 4770 1970
+Wire Wire Line
+	4770 1870 4040 1870
+Wire Wire Line
+	4040 1770 4770 1770
+$Comp
+L Device:Battery BT1
+U 1 1 5F036FB0
+P 4220 770
+F 0 "BT1" V 3975 770 50  0000 C CNN
+F 1 "Battery" V 4066 770 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" V 4220 830 50  0001 C CNN
+F 3 "~" V 4220 830 50  0001 C CNN
+	1    4220 770 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4420 770  4645 770 
+$Comp
+L power:GND #PWR02
+U 1 1 5F03A3F3
+P 3895 845
+F 0 "#PWR02" H 3895 595 50  0001 C CNN
+F 1 "GND" H 3900 672 50  0000 C CNN
+F 2 "" H 3895 845 50  0001 C CNN
+F 3 "" H 3895 845 50  0001 C CNN
+	1    3895 845 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_26X2 J1
+U 1 1 5F05207B
+P 3740 2470
+F 0 "J1" V 3745 2470 45  0000 C CNN
+F 1 "CONN_26X2" V 3740 1675 45  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical" H 3770 2620 20  0001 C CNN
+F 3 "" H 3740 2470 50  0001 C CNN
+	1    3740 2470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4770 1270 4645 1270
+Wire Wire Line
+	4040 1370 4770 1370
+Wire Wire Line
+	4645 770  4645 1270
+Connection ~ 4645 1270
+Wire Wire Line
+	4645 1270 4040 1270
+Wire Wire Line
+	3895 845  3895 770 
+Wire Wire Line
+	3895 770  4020 770 
+Wire Wire Line
+	6970 1370 7500 1370
+Wire Wire Line
+	6970 1570 7245 1570
+Wire Wire Line
+	6970 1670 7500 1670
+Wire Wire Line
+	7500 1470 6970 1470
+Wire Wire Line
+	7500 1270 6970 1270
+$Comp
+L power:GND #PWR04
+U 1 1 5F07D02E
+P 5955 5105
+F 0 "#PWR04" H 5955 4855 50  0001 C CNN
+F 1 "GND" H 5960 4932 50  0000 C CNN
+F 2 "" H 5955 5105 50  0001 C CNN
+F 3 "" H 5955 5105 50  0001 C CNN
+	1    5955 5105
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5955 5105 5870 5105
+Wire Wire Line
+	5870 5105 5870 4920
+Wire Wire Line
+	5955 5105 6020 5105
+Wire Wire Line
+	6020 5105 6020 4920
+Connection ~ 5955 5105
+Wire Wire Line
+	6970 3770 7500 3770
+Wire Wire Line
+	7500 3670 6970 3670
+Wire Wire Line
+	6970 3570 7500 3570
+Wire Wire Line
+	7500 3470 6970 3470
+Wire Wire Line
+	6970 3370 7500 3370
+Wire Wire Line
+	7500 3270 6970 3270
+Wire Wire Line
+	6970 3170 7500 3170
+Wire Wire Line
+	7500 3070 6970 3070
+Wire Wire Line
+	6970 2970 7500 2970
+Wire Wire Line
+	6970 2770 7500 2770
+Wire Wire Line
+	6970 2870 7325 2870
+Wire Wire Line
+	7500 2670 6970 2670
+Wire Wire Line
+	6970 2570 7500 2570
+Wire Wire Line
+	7500 2470 6970 2470
+Wire Wire Line
+	6970 2370 7500 2370
+Wire Wire Line
+	7500 2270 6970 2270
+Wire Wire Line
+	6970 2170 7500 2170
+Wire Wire Line
+	7500 2070 6970 2070
+Wire Wire Line
+	6970 1970 7500 1970
+Wire Wire Line
+	6970 1870 7500 1870
+Wire Wire Line
+	7500 1770 6970 1770
+Text Label 6020 5090 1    50   ~ 0
+GND1
+$Comp
+L power:GND #PWR01
+U 1 1 5F009EAF
+P 2570 3770
+F 0 "#PWR01" H 2570 3520 50  0001 C CNN
+F 1 "GND" H 2575 3597 50  0000 C CNN
+F 2 "" H 2570 3770 50  0001 C CNN
+F 3 "" H 2570 3770 50  0001 C CNN
+	1    2570 3770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2570 1270 3440 1270
+Wire Wire Line
+	3440 3770 2570 3770
+Wire Wire Line
+	2570 3670 2570 3770
+Wire Wire Line
+	3440 3670 2570 3670
+Connection ~ 2570 3670
+Wire Wire Line
+	3440 1370 2570 1370
+Wire Wire Line
+	2570 1270 2570 1370
+Connection ~ 2570 1370
+Wire Wire Line
+	3440 1470 2570 1470
+Wire Wire Line
+	2570 1370 2570 1470
+Connection ~ 2570 1470
+Wire Wire Line
+	3440 1570 2570 1570
+Wire Wire Line
+	2570 1470 2570 1570
+Connection ~ 2570 1570
+Wire Wire Line
+	3440 1670 2570 1670
+Wire Wire Line
+	2570 1570 2570 1670
+Connection ~ 2570 1670
+Wire Wire Line
+	3440 1770 2570 1770
+Wire Wire Line
+	2570 1670 2570 1770
+Connection ~ 2570 1770
+Wire Wire Line
+	3440 1870 2570 1870
+Wire Wire Line
+	2570 1770 2570 1870
+Connection ~ 2570 1870
+Wire Wire Line
+	3440 2070 2570 2070
+Wire Wire Line
+	2570 1870 2570 2070
+Connection ~ 2570 2070
+Wire Wire Line
+	3440 2170 2570 2170
+Wire Wire Line
+	2570 1970 3440 1970
+Wire Wire Line
+	2570 2070 2570 2170
+Connection ~ 2570 2170
+Wire Wire Line
+	3440 2270 2570 2270
+Wire Wire Line
+	2570 2170 2570 2270
+Connection ~ 2570 2270
+Wire Wire Line
+	3440 2370 2570 2370
+Wire Wire Line
+	2570 2270 2570 2370
+Connection ~ 2570 2370
+Wire Wire Line
+	3440 2470 2570 2470
+Wire Wire Line
+	2570 2370 2570 2470
+Connection ~ 2570 2470
+Wire Wire Line
+	3440 2570 2570 2570
+Wire Wire Line
+	2570 2470 2570 2570
+Connection ~ 2570 2570
+Wire Wire Line
+	3440 2670 2570 2670
+Wire Wire Line
+	2570 2570 2570 2670
+Connection ~ 2570 2670
+Wire Wire Line
+	3440 2770 2570 2770
+Wire Wire Line
+	2570 2670 2570 2770
+Connection ~ 2570 2770
+Wire Wire Line
+	3440 2870 2570 2870
+Wire Wire Line
+	2570 2770 2570 2870
+Connection ~ 2570 2870
+Wire Wire Line
+	3440 2970 2570 2970
+Wire Wire Line
+	2570 2870 2570 2970
+Connection ~ 2570 2970
+Wire Wire Line
+	3440 3070 2570 3070
+Wire Wire Line
+	2570 2970 2570 3070
+Connection ~ 2570 3070
+Wire Wire Line
+	3440 3570 2570 3570
+Connection ~ 2570 3570
+Wire Wire Line
+	2570 3570 2570 3670
+Wire Wire Line
+	3440 3470 2570 3470
+Connection ~ 2570 3470
+Wire Wire Line
+	2570 3470 2570 3570
+Wire Wire Line
+	3440 3370 2570 3370
+Connection ~ 2570 3370
+Wire Wire Line
+	2570 3370 2570 3470
+Wire Wire Line
+	3440 3270 2570 3270
+Connection ~ 2570 3270
+Wire Wire Line
+	2570 3270 2570 3370
+Wire Wire Line
+	3440 3170 2570 3170
+Wire Wire Line
+	2570 3070 2570 3170
+Connection ~ 2570 3170
+Wire Wire Line
+	2570 3170 2570 3270
+$Comp
+L SparkFun-Connectors:CONN_26X2 J2
+U 1 1 5F0AFAEA
+P 7800 2570
+F 0 "J2" V 7805 2570 45  0000 C CNN
+F 1 "CONN_26X2" V 7800 1775 45  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical" H 7830 2720 20  0001 C CNN
+F 3 "" H 7800 2570 50  0001 C CNN
+	1    7800 2570
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5F0AFAF0
+P 8970 3770
+F 0 "#PWR07" H 8970 3520 50  0001 C CNN
+F 1 "GND" H 8975 3597 50  0000 C CNN
+F 2 "" H 8970 3770 50  0001 C CNN
+F 3 "" H 8970 3770 50  0001 C CNN
+	1    8970 3770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8970 3770 8100 3770
+Wire Wire Line
+	8100 1270 8970 1270
+Wire Wire Line
+	8970 1370 8970 1270
+Wire Wire Line
+	8100 1370 8970 1370
+Connection ~ 8970 1370
+Wire Wire Line
+	8100 3670 8970 3670
+Connection ~ 8970 3670
+Wire Wire Line
+	8100 3570 8970 3570
+Wire Wire Line
+	8970 3670 8970 3570
+Connection ~ 8970 3570
+Wire Wire Line
+	8100 3470 8970 3470
+Wire Wire Line
+	8970 3570 8970 3470
+Connection ~ 8970 3470
+Wire Wire Line
+	8100 3370 8970 3370
+Wire Wire Line
+	8970 3470 8970 3370
+Connection ~ 8970 3370
+Wire Wire Line
+	8100 3270 8970 3270
+Wire Wire Line
+	8970 3370 8970 3270
+Connection ~ 8970 3270
+Wire Wire Line
+	8100 3170 8970 3170
+Wire Wire Line
+	8970 3270 8970 3170
+Connection ~ 8970 3170
+Wire Wire Line
+	8100 2970 8970 2970
+Wire Wire Line
+	8970 3170 8970 2970
+Connection ~ 8970 2970
+Wire Wire Line
+	8100 2870 8970 2870
+Wire Wire Line
+	8970 3070 8100 3070
+Wire Wire Line
+	8970 2970 8970 2870
+Connection ~ 8970 2870
+Wire Wire Line
+	8100 2770 8970 2770
+Wire Wire Line
+	8970 2870 8970 2770
+Connection ~ 8970 2770
+Wire Wire Line
+	8100 2670 8970 2670
+Wire Wire Line
+	8970 2770 8970 2670
+Connection ~ 8970 2670
+Wire Wire Line
+	8100 2570 8970 2570
+Wire Wire Line
+	8970 2670 8970 2570
+Connection ~ 8970 2570
+Wire Wire Line
+	8100 2470 8970 2470
+Wire Wire Line
+	8970 2570 8970 2470
+Connection ~ 8970 2470
+Wire Wire Line
+	8100 2370 8970 2370
+Wire Wire Line
+	8970 2470 8970 2370
+Connection ~ 8970 2370
+Wire Wire Line
+	8100 2270 8970 2270
+Wire Wire Line
+	8970 2370 8970 2270
+Connection ~ 8970 2270
+Wire Wire Line
+	8100 2170 8970 2170
+Wire Wire Line
+	8970 2270 8970 2170
+Connection ~ 8970 2170
+Wire Wire Line
+	8100 2070 8970 2070
+Wire Wire Line
+	8970 2170 8970 2070
+Connection ~ 8970 2070
+Wire Wire Line
+	8100 1970 8970 1970
+Wire Wire Line
+	8970 2070 8970 1970
+Connection ~ 8970 1970
+Wire Wire Line
+	8100 1470 8970 1470
+Connection ~ 8970 1470
+Wire Wire Line
+	8970 1470 8970 1370
+Wire Wire Line
+	8100 1570 8970 1570
+Connection ~ 8970 1570
+Wire Wire Line
+	8970 1570 8970 1470
+Wire Wire Line
+	8100 1670 8970 1670
+Connection ~ 8970 1670
+Wire Wire Line
+	8970 1670 8970 1570
+Wire Wire Line
+	8100 1770 8970 1770
+Connection ~ 8970 1770
+Wire Wire Line
+	8970 1770 8970 1670
+Wire Wire Line
+	8100 1870 8970 1870
+Wire Wire Line
+	8970 1970 8970 1870
+Connection ~ 8970 1870
+Wire Wire Line
+	8970 1870 8970 1770
+Wire Wire Line
+	8970 3670 8970 3770
+NoConn ~ 4770 4070
+NoConn ~ 4770 3970
+$Comp
+L power:GND #PWR03
+U 1 1 5F12D830
+P 4575 4850
+F 0 "#PWR03" H 4575 4600 50  0001 C CNN
+F 1 "GND" H 4580 4677 50  0000 C CNN
+F 2 "" H 4575 4850 50  0001 C CNN
+F 3 "" H 4575 4850 50  0001 C CNN
+	1    4575 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4770 4520 4575 4520
+Wire Wire Line
+	4770 4620 4575 4620
+Wire Wire Line
+	4575 4520 4575 4620
+Connection ~ 4575 4620
+Wire Wire Line
+	4575 4620 4575 4850
+$Comp
+L power:GND #PWR06
+U 1 1 5F13E573
+P 7325 2870
+F 0 "#PWR06" H 7325 2620 50  0001 C CNN
+F 1 "GND" H 7455 2820 50  0000 C CNN
+F 2 "" H 7325 2870 50  0001 C CNN
+F 3 "" H 7325 2870 50  0001 C CNN
+	1    7325 2870
+	1    0    0    -1  
+$EndComp
+Connection ~ 7325 2870
+Wire Wire Line
+	7325 2870 7500 2870
+$Comp
+L power:GND #PWR05
+U 1 1 5F13F749
+P 7245 1570
+F 0 "#PWR05" H 7245 1320 50  0001 C CNN
+F 1 "GND" H 7375 1520 50  0000 C CNN
+F 2 "" H 7245 1570 50  0001 C CNN
+F 3 "" H 7245 1570 50  0001 C CNN
+	1    7245 1570
+	1    0    0    -1  
+$EndComp
+Connection ~ 7245 1570
+Wire Wire Line
+	7245 1570 7500 1570
+Wire Wire Line
+	3775 4420 4770 4420
+Connection ~ 8970 3770
+Text Label 4295 4420 0    50   ~ 0
+DP
+Text Label 4280 4320 0    50   ~ 0
+DN
+Connection ~ 2570 3770
+Wire Wire Line
+	3775 4520 3910 4520
+Wire Wire Line
+	3910 4520 3910 4685
+$Comp
+L power:GND #PWR0101
+U 1 1 5F0D94D5
+P 3910 4685
+F 0 "#PWR0101" H 3910 4435 50  0001 C CNN
+F 1 "GND" H 3915 4512 50  0000 C CNN
+F 2 "" H 3910 4685 50  0001 C CNN
+F 3 "" H 3910 4685 50  0001 C CNN
+	1    3910 4685
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4770 4220 3775 4220
+Wire Wire Line
+	3775 4320 4770 4320
+$Comp
+L SamacSys_Parts:629104190121 J?
+U 1 1 5F115703
+P 3275 4570
+F 0 "J?" H 4133 5035 50  0000 C CNN
+F 1 "629104190121" H 4133 4944 50  0000 C CNN
+F 2 "629104190121" H 4225 4670 50  0001 L CNN
+F 3 "http://katalog.we-online.de/em/datasheet/629104190121.pdf" H 4225 4570 50  0001 L CNN
+F 4 "WURTH ELEKTRONIK - 629104190121 - CONN, USB 2 TYPE A, RCPT, 4POS, SMT" H 4225 4470 50  0001 L CNN "Description"
+F 5 "710-629104190121" H 4225 4270 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/629104190121?qs=lBTPRtX1sU8FkkdswgHZbg%3D%3D" H 4225 4170 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Wurth Elektronik" H 4225 4070 50  0001 L CNN "Manufacturer_Name"
+F 8 "629104190121" H 4225 3970 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3275 4570
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F12B9AB
+P 7235 4820
+F 0 "#PWR?" H 7235 4570 50  0001 C CNN
+F 1 "GND" H 7240 4647 50  0000 C CNN
+F 2 "" H 7235 4820 50  0001 C CNN
+F 3 "" H 7235 4820 50  0001 C CNN
+	1    7235 4820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7235 4820 7235 4570
+Wire Wire Line
+	7235 4570 6970 4570
+$Comp
+L SamacSys_Parts:HX1198FNLT T?
+U 1 1 5F151EA4
+P 7970 4070
+F 0 "T?" V 8415 3945 50  0000 C CNN
+F 1 "HX1198FNLT" V 8415 3545 50  0000 C CNN
+F 2 "HX1198FNLT" H 8720 4170 50  0001 L CNN
+F 3 "http://productfinder.pulseeng.com/products/datasheets/HX1198FNL.pdf" H 8720 4070 50  0001 L CNN
+F 4 "Transformers Audio & Signal 100BaseTX SMD NonPoE 350uH 1-Port" H 8720 3970 50  0001 L CNN "Description"
+F 5 "" H 8720 3870 50  0001 L CNN "Height"
+F 6 "Pulse" H 8720 3770 50  0001 L CNN "Manufacturer_Name"
+F 7 "HX1198FNLT" H 8720 3670 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "HX1198FNLT" H 8720 3570 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/hx1198fnlt/pulse-electronics-corporation" H 8720 3470 50  0001 L CNN "Arrow Price/Stock"
+F 10 "673-HX1198FNLT" H 8720 3370 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HX1198FNLT?qs=tJ9riMc3cOdxYfOUFXg7qA%3D%3D" H 8720 3270 50  0001 L CNN "Mouser Price/Stock"
+	1    7970 4070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6970 4170 7365 4170
+Wire Wire Line
+	7365 4170 7365 4270
+Wire Wire Line
+	7365 4270 7970 4270
+Wire Wire Line
+	7250 4305 7250 4270
+Wire Wire Line
+	7250 4270 6970 4270
+Wire Wire Line
+	6970 4370 7490 4370
+Wire Wire Line
+	7490 4370 7490 4770
+Wire Wire Line
+	7490 4770 7970 4770
+Wire Wire Line
+	6970 4470 7210 4470
+$Comp
+L ESP32-PoE-ISO_Rev_C:Cap_Small C?
+U 1 1 5F1959ED
+P 7795 4120
+F 0 "C?" V 7760 4065 39  0000 C CNN
+F 1 "0.1" V 7775 4175 24  0000 C CNN
+F 2 "" H 7795 4120 60  0000 C CNN
+F 3 "" H 7795 4120 60  0000 C CNN
+	1    7795 4120
+	0    1    1    0   
+$EndComp
+$Comp
+L ESP32-PoE-ISO_Rev_C:Cap_Small C?
+U 1 1 5F196271
+P 7795 4200
+F 0 "C?" V 7820 4145 39  0000 C CNN
+F 1 "0.1" V 7770 4145 24  0000 C CNN
+F 2 "" H 7795 4200 60  0000 C CNN
+F 3 "" H 7795 4200 60  0000 C CNN
+	1    7795 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7845 4200 7970 4200
+Wire Wire Line
+	7970 4200 7970 4170
+Wire Wire Line
+	7970 4170 7970 4120
+Wire Wire Line
+	7970 4120 7845 4120
+Connection ~ 7970 4170
+Wire Wire Line
+	7745 4120 7620 4120
+Wire Wire Line
+	7620 4120 7620 4160
+Wire Wire Line
+	7620 4200 7745 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5F1C27B5
+P 7620 4160
+F 0 "#PWR?" H 7620 3910 50  0001 C CNN
+F 1 "GND" H 7625 3987 50  0000 C CNN
+F 2 "" H 7620 4160 50  0001 C CNN
+F 3 "" H 7620 4160 50  0001 C CNN
+	1    7620 4160
+	0    1    1    0   
+$EndComp
+Connection ~ 7620 4160
+Wire Wire Line
+	7620 4160 7620 4200
+Wire Wire Line
+	7970 4070 7925 4070
+Wire Wire Line
+	7925 4070 7925 4010
+Wire Wire Line
+	7925 4010 7240 4010
+Wire Wire Line
+	7240 4010 7240 4070
+Wire Wire Line
+	7240 4070 6970 4070
+$Comp
+L ESP32-PoE-ISO_Rev_C:Cap_Small C?
+U 1 1 5F212E0D
+P 7835 4630
+F 0 "C?" V 7800 4575 39  0000 C CNN
+F 1 "0.1" V 7815 4685 24  0000 C CNN
+F 2 "" H 7835 4630 60  0000 C CNN
+F 3 "" H 7835 4630 60  0000 C CNN
+	1    7835 4630
+	0    1    1    0   
+$EndComp
+$Comp
+L ESP32-PoE-ISO_Rev_C:Cap_Small C?
+U 1 1 5F212E13
+P 7835 4710
+F 0 "C?" V 7860 4655 39  0000 C CNN
+F 1 "0.1" V 7810 4655 24  0000 C CNN
+F 2 "" H 7835 4710 60  0000 C CNN
+F 3 "" H 7835 4710 60  0000 C CNN
+	1    7835 4710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7785 4630 7660 4630
+Wire Wire Line
+	7660 4630 7660 4670
+Wire Wire Line
+	7660 4710 7785 4710
+$Comp
+L power:GND #PWR?
+U 1 1 5F212E1E
+P 7660 4670
+F 0 "#PWR?" H 7660 4420 50  0001 C CNN
+F 1 "GND" H 7555 4575 50  0000 C CNN
+F 2 "" H 7660 4670 50  0001 C CNN
+F 3 "" H 7660 4670 50  0001 C CNN
+	1    7660 4670
+	0    1    1    0   
+$EndComp
+Connection ~ 7660 4670
+Wire Wire Line
+	7660 4670 7660 4710
+Wire Wire Line
+	7970 4570 7870 4570
+Wire Wire Line
+	7870 4570 7870 4305
+Wire Wire Line
+	7250 4305 7870 4305
+Wire Wire Line
+	7885 4630 7970 4630
+Wire Wire Line
+	7970 4630 7970 4670
+Wire Wire Line
+	7970 4670 7970 4710
+Wire Wire Line
+	7970 4710 7885 4710
+Connection ~ 7970 4670
+NoConn ~ 7970 4470
+NoConn ~ 7970 4370
+Text Label 7210 4470 2    50   ~ 0
+LED0
+Text Label 7085 4070 0    50   ~ 0
+TP
+Text Label 7095 4170 0    50   ~ 0
+TN
+Text Label 7085 4270 0    50   ~ 0
+RP
+Text Label 7085 4370 0    50   ~ 0
+RN
+$EndSCHEMATC
