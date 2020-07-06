@@ -737,30 +737,10 @@ Wire Wire Line
 Connection ~ 7970 4670
 Wire Wire Line
 	7970 4670 7970 4710
-$Comp
-L SamacSys_Parts:SS-7188S-A-NF J4
-U 1 1 5F04A257
-P 10240 4370
-F 0 "J4" H 10468 4371 50  0000 L CNN
-F 1 "SS-7188S-A-NF" H 10468 4280 50  0000 L CNN
-F 2 "SamacSys_Parts:SS-7188S-A-NF" H 10490 4620 50  0001 L CNN
-F 3 "" H 10490 4520 50  0001 L CNN
-F 4 "Bel-Stewart Cat5e RJ45 Connector Socket, Shielded, Right Angle, Through Hole" H 10490 4420 50  0001 L CNN "Description"
-F 5 "530-SS-7188S-A-NF" H 10490 4220 50  0001 L CNN "Mouser Part Number"
-F 6 "https://www.mouser.co.uk/ProductDetail/Stewart-Connector-Bel/SS-7188S-A-NF?qs=FESYatJ8odJ%252BI%2FN%2FnbWjsA%3D%3D" H 10490 4120 50  0001 L CNN "Mouser Price/Stock"
-F 7 "Bel-Stewart" H 10490 4020 50  0001 L CNN "Manufacturer_Name"
-F 8 "SS-7188S-A-NF" H 10490 3920 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10240 4370
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8870 4070 10040 4070
 Wire Wire Line
 	8870 4270 9460 4270
 Wire Wire Line
 	9460 4270 9460 4170
-Wire Wire Line
-	9460 4170 10040 4170
 NoConn ~ 8870 4370
 NoConn ~ 8870 4470
 Wire Wire Line
@@ -768,13 +748,9 @@ Wire Wire Line
 Wire Wire Line
 	9635 4570 9635 4270
 Wire Wire Line
-	9635 4270 10040 4270
-Wire Wire Line
 	8870 4770 9840 4770
 Wire Wire Line
 	9840 4770 9840 4570
-Wire Wire Line
-	9840 4570 10040 4570
 $Comp
 L Device:R_US R3
 U 1 1 5F0E3549
@@ -787,11 +763,7 @@ F 3 "~" H 9650 5140 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10040 4670 9935 4670
-Wire Wire Line
 	9935 4670 9935 4775
-Wire Wire Line
-	10040 4770 9940 4770
 Wire Wire Line
 	9940 4770 9940 4775
 Wire Wire Line
@@ -885,20 +857,13 @@ Wire Wire Line
 Wire Wire Line
 	9275 4170 9275 5380
 Wire Wire Line
-	10040 4370 9915 4370
-Wire Wire Line
 	9665 4370 9665 4930
 Wire Wire Line
 	9665 4930 9650 4930
 Wire Wire Line
 	9650 4930 9650 4990
 Wire Wire Line
-	10045 4470 10040 4470
-Wire Wire Line
 	9915 4470 9915 4370
-Connection ~ 10040 4470
-Wire Wire Line
-	10040 4470 9915 4470
 Connection ~ 9915 4370
 Wire Wire Line
 	9915 4370 9665 4370
@@ -942,4 +907,52 @@ Connection ~ 8970 3070
 Connection ~ 8970 3170
 Wire Wire Line
 	8970 3170 8970 3270
+$Comp
+L power:GND #PWR0107
+U 1 1 5F0723BF
+P 10080 5140
+F 0 "#PWR0107" H 10080 4890 50  0001 C CNN
+F 1 "GND" H 10085 4967 50  0000 C CNN
+F 2 "" H 10080 5140 50  0001 C CNN
+F 3 "" H 10080 5140 50  0001 C CNN
+	1    10080 5140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9940 4770 10360 4770
+Wire Wire Line
+	9935 4670 10360 4670
+Wire Wire Line
+	8870 4070 10360 4070
+Wire Wire Line
+	9460 4170 10360 4170
+Wire Wire Line
+	9635 4270 10360 4270
+Wire Wire Line
+	9915 4370 10360 4370
+Wire Wire Line
+	9915 4470 10360 4470
+Wire Wire Line
+	9840 4570 10360 4570
+Wire Wire Line
+	10080 4870 10360 4870
+$Comp
+L SamacSys_Parts:NE8FAH-C5 J4
+U 1 1 5F148EB7
+P 10360 4070
+F 0 "J4" H 10738 3691 50  0000 L CNN
+F 1 "NE8FAH-C5" H 10738 3600 50  0000 L CNN
+F 2 "SamacSys_Parts:NE8FAHC5" H 10760 3320 50  0001 L CNN
+F 3 "https://www.neutrik.com/media/10049/download/ne8fah-c5-1.pdf?v=1" H 10760 3420 50  0001 L CNN
+F 4 "NEUTRIK - NE8FAH-C5 - CONNECTOR, RJ45, JACK, 8P8C, CAT5E" H 10760 3520 50  0001 L CNN "Description"
+F 5 "28.7" H 10510 3470 50  0001 L CNN "Height"
+F 6 "568-NE8FAH-C5" H 10760 3720 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Neutrik/NE8FAH-C5?qs=yAJ577jGV73mSHthIeMdNw%3D%3D" H 10760 3820 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Neutrik" H 10760 3920 50  0001 L CNN "Manufacturer_Name"
+F 9 "NE8FAH-C5" H 10760 4020 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10360 4070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10080 4870 10080 5140
 $EndSCHEMATC
