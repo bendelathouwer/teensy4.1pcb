@@ -78,7 +78,7 @@ U 1 1 5F036FB0
 P 4220 770
 F 0 "BT1" V 3975 770 50  0000 C CNN
 F 1 "Battery" V 4066 770 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" V 4220 830 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" V 4220 830 50  0001 C CNN
 F 3 "~" V 4220 830 50  0001 C CNN
 	1    4220 770 
 	0    1    1    0   
@@ -597,8 +597,6 @@ Wire Wire Line
 	7490 4370 7490 4770
 Wire Wire Line
 	7490 4770 7970 4770
-Wire Wire Line
-	6970 4470 7210 4470
 $Comp
 L ESP32-PoE-ISO_Rev_C:Cap_Small C1
 U 1 1 5F1959ED
@@ -709,8 +707,6 @@ Wire Wire Line
 	7970 4710 7885 4710
 NoConn ~ 7970 4470
 NoConn ~ 7970 4370
-Text Label 7210 4470 2    50   ~ 0
-LED0
 Text Label 7085 4070 0    50   ~ 0
 TP
 Text Label 7095 4170 0    50   ~ 0
@@ -840,17 +836,6 @@ Wire Wire Line
 Wire Wire Line
 	9650 5620 9650 5290
 Connection ~ 9775 5620
-$Comp
-L power:Earth #PWR0105
-U 1 1 5F11E832
-P 9775 5810
-F 0 "#PWR0105" H 9775 5560 50  0001 C CNN
-F 1 "Earth" H 9775 5660 50  0001 C CNN
-F 2 "" H 9775 5810 50  0001 C CNN
-F 3 "~" H 9775 5810 50  0001 C CNN
-	1    9775 5810
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9775 5810 9775 5720
 $Comp
@@ -895,17 +880,6 @@ Wire Wire Line
 Wire Wire Line
 	8990 5725 8990 5395
 Connection ~ 9115 5725
-$Comp
-L power:Earth #PWR0106
-U 1 1 5F1344FD
-P 9115 5915
-F 0 "#PWR0106" H 9115 5665 50  0001 C CNN
-F 1 "Earth" H 9115 5765 50  0001 C CNN
-F 2 "" H 9115 5915 50  0001 C CNN
-F 3 "~" H 9115 5915 50  0001 C CNN
-	1    9115 5915
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9115 5915 9115 5825
 Wire Wire Line
@@ -934,4 +908,35 @@ Wire Wire Line
 Connection ~ 9915 4370
 Wire Wire Line
 	9915 4370 9665 4370
+Text Label 9125 4070 0    50   ~ 0
+T1P
+Text Label 9090 4270 0    50   ~ 0
+T1N
+Text Label 9085 4570 0    50   ~ 0
+R1P
+Text Label 9060 4770 0    50   ~ 0
+R1N
+$Comp
+L power:GND #PWR0106
+U 1 1 5F06739F
+P 9775 5810
+F 0 "#PWR0106" H 9775 5560 50  0001 C CNN
+F 1 "GND" H 9780 5637 50  0000 C CNN
+F 2 "" H 9775 5810 50  0001 C CNN
+F 3 "" H 9775 5810 50  0001 C CNN
+	1    9775 5810
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F0429FF
+P 9115 5915
+F 0 "#PWR0105" H 9115 5665 50  0001 C CNN
+F 1 "GND" H 9120 5742 50  0000 C CNN
+F 2 "" H 9115 5915 50  0001 C CNN
+F 3 "" H 9115 5915 50  0001 C CNN
+	1    9115 5915
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6970 4470
 $EndSCHEMATC
