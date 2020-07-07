@@ -1,0 +1,10 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"BT1";"JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical";1;"Battery";;;
+2;"C1,C2,C3,C4";"C_0603_1608Metric_Pad0.99x1.00mm_HandSolder";4;"0.1";;;
+3;"C5,C6";"C_0603_1608Metric_Pad0.99x1.00mm_HandSolder";2;"1000pF";;;
+4;"J1,J2";"PinHeader_2x26_P2.54mm_Vertical";2;"CONN_26X2";;;
+5;"J3";"629104190121";1;"629104190121";;;
+6;"J4";"NE8FAHC5";1;"NE8FAH-C5";;;
+7;"R1,R2,R3,R4";"R_0603_1608Metric";4;"R_US";;;
+8;"T1";"HX1198FNLT";1;"HX1198FNLT";;;
+9;"U1";"Teensy41";1;"Teensy4.1";;;
